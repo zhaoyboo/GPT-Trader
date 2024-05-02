@@ -9,7 +9,7 @@ from data.insights.linelevels import LineLevels
 from data.insights.momentum import Momentum
 from data.insights.news import News
 from data.sources.yahoo import YahooSource
-from data.sources.tdameritrade import TDAmeritrade
+from tradegpt.data.sources.alpaca_news import TDAmeritrade
 from data.insights.options import Options
 from data.insights.vix import VIX
 from utils import ask_gpt, save_response
